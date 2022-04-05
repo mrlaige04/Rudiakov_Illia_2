@@ -1,0 +1,32 @@
+E:\КПИ УЧЕБА\1 курс 2 семестр\Proga\Lab2\Lab2\bin\Debug\net5.0\Lab2.exe
+E:\КПИ УЧЕБА\1 курс 2 семестр\Proga\Lab2\Lab2\bin\Debug\net5.0\Lab2.deps.json
+E:\КПИ УЧЕБА\1 курс 2 семестр\Proga\Lab2\Lab2\bin\Debug\net5.0\Lab2.runtimeconfig.json
+E:\КПИ УЧЕБА\1 курс 2 семестр\Proga\Lab2\Lab2\bin\Debug\net5.0\Lab2.runtimeconfig.dev.json
+E:\КПИ УЧЕБА\1 курс 2 семестр\Proga\Lab2\Lab2\bin\Debug\net5.0\Lab2.dll
+E:\КПИ УЧЕБА\1 курс 2 семестр\Proga\Lab2\Lab2\bin\Debug\net5.0\ref\Lab2.dll
+E:\КПИ УЧЕБА\1 курс 2 семестр\Proga\Lab2\Lab2\bin\Debug\net5.0\Lab2.pdb
+E:\КПИ УЧЕБА\1 курс 2 семестр\Proga\Lab2\Lab2\obj\Debug\net5.0\Lab2.csproj.AssemblyReference.cache
+E:\КПИ УЧЕБА\1 курс 2 семестр\Proga\Lab2\Lab2\obj\Debug\net5.0\Lab2.GeneratedMSBuildEditorConfig.editorconfig
+E:\КПИ УЧЕБА\1 курс 2 семестр\Proga\Lab2\Lab2\obj\Debug\net5.0\Lab2.AssemblyInfoInputs.cache
+E:\КПИ УЧЕБА\1 курс 2 семестр\Proga\Lab2\Lab2\obj\Debug\net5.0\Lab2.AssemblyInfo.cs
+E:\КПИ УЧЕБА\1 курс 2 семестр\Proga\Lab2\Lab2\obj\Debug\net5.0\Lab2.csproj.CoreCompileInputs.cache
+E:\КПИ УЧЕБА\1 курс 2 семестр\Proga\Lab2\Lab2\obj\Debug\net5.0\Lab2.dll
+E:\КПИ УЧЕБА\1 курс 2 семестр\Proga\Lab2\Lab2\obj\Debug\net5.0\ref\Lab2.dll
+E:\КПИ УЧЕБА\1 курс 2 семестр\Proga\Lab2\Lab2\obj\Debug\net5.0\Lab2.pdb
+E:\КПИ УЧЕБА\1 курс 2 семестр\Proga\Lab2\Lab2\obj\Debug\net5.0\Lab2.genruntimeconfig.cache
+E:\Rudiakov_Illia_2-newBranch\Lab2\bin\Debug\net5.0\Lab2.exe
+E:\Rudiakov_Illia_2-newBranch\Lab2\bin\Debug\net5.0\Lab2.deps.json
+E:\Rudiakov_Illia_2-newBranch\Lab2\bin\Debug\net5.0\Lab2.runtimeconfig.json
+E:\Rudiakov_Illia_2-newBranch\Lab2\bin\Debug\net5.0\Lab2.runtimeconfig.dev.json
+E:\Rudiakov_Illia_2-newBranch\Lab2\bin\Debug\net5.0\Lab2.dll
+E:\Rudiakov_Illia_2-newBranch\Lab2\bin\Debug\net5.0\Lab2.pdb
+E:\Rudiakov_Illia_2-newBranch\Lab2\obj\Debug\net5.0\Lab2.csproj.AssemblyReference.cache
+E:\Rudiakov_Illia_2-newBranch\Lab2\obj\Debug\net5.0\Lab2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Rudiakov_Illia_2-newBranch\Lab2\obj\Debug\net5.0\Lab2.AssemblyInfoInputs.cache
+E:\Rudiakov_Illia_2-newBranch\Lab2\obj\Debug\net5.0\Lab2.AssemblyInfo.cs
+E:\Rudiakov_Illia_2-newBranch\Lab2\obj\Debug\net5.0\Lab2.csproj.CoreCompileInputs.cache
+E:\Rudiakov_Illia_2-newBranch\Lab2\obj\Debug\net5.0\Lab2.dll
+E:\Rudiakov_Illia_2-newBranch\Lab2\obj\Debug\net5.0\refint\Lab2.dll
+E:\Rudiakov_Illia_2-newBranch\Lab2\obj\Debug\net5.0\Lab2.pdb
+E:\Rudiakov_Illia_2-newBranch\Lab2\obj\Debug\net5.0\Lab2.genruntimeconfig.cache
+E:\Rudiakov_Illia_2-newBranch\Lab2\obj\Debug\net5.0\ref\Lab2.dll
