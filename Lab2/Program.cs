@@ -14,7 +14,7 @@ namespace Lab2
             local.HeightKrutyznaDifference();
             Console.WriteLine("________________________________________");
             local.Compare();
-
+	    Console.Readkey();
             
         }
     }
