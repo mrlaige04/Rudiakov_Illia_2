@@ -10,6 +10,13 @@ namespace Lab2
     {
         private List<int> Heights = new List<int>();
         private double[,] profiles;
+        private int dist;
+
+        public int Dist
+        { 
+            get { return dist; }
+            set { dist = value; }
+        }
 
         // Додавання необмеженої кількості висот
         public Locality(params int[] heights)
@@ -44,7 +51,7 @@ namespace Lab2
                         profiles[iter, 3] = Math.Atan(Math.Max(Heights[i], Heights[j]) / 1);
 
                         Console.WriteLine($"Перепад висот між значеннями висот у точках {i} та {j} складає {Math.Abs(Heights[i] - Heights[j])}");
-                        Console.WriteLine($"Кут нахилу(крутизна): {Math.Atan((Math.Max(Heights[i], Heights[j])-Math.Min(Heights[i], Heights[j])) / 1)}");
+                        Console.WriteLine($"Кут нахилу(крутизна): {Math.Atan((Math.Max(Heights[i], Heights[j])-Math.Min(Heights[i], Heights[j])) / Dist)}");
                         Console.WriteLine("_____________________________________________________________________");
                         dif.Add(Math.Abs(Heights[i] - Heights[j]));
                         iter++;
@@ -53,8 +60,8 @@ namespace Lab2
             }
 
 
-            Console.WriteLine($"Найбільший перепад висот: {(from i in dif orderby i descending select i).First()}");
-            Console.WriteLine($"Найменший перепад висот: {(from i in dif orderby i  select i).First()}");
+            Console.WriteLine($"Найбільший перепад висот: {(from i in dif orderby i descending select i)?.First()}");
+            Console.WriteLine($"Найменший перепад висот: {(from i in dif orderby i  select i)?.First()}");
             Console.WriteLine("_______________________________________________________________");
 
             

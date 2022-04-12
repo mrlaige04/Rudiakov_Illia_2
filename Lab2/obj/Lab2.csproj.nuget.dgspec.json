@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Rudiakov_Illia_2-newBranch\\Lab2\\Lab2.csproj": {}
+    "E:\\GITPROJLAB\\Rudiakov_Illia_2\\Lab2\\Lab2.csproj": {}
   },
   "projects": {
-    "E:\\Rudiakov_Illia_2-newBranch\\Lab2\\Lab2.csproj": {
+    "E:\\GITPROJLAB\\Rudiakov_Illia_2\\Lab2\\Lab2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Rudiakov_Illia_2-newBranch\\Lab2\\Lab2.csproj",
+        "projectUniqueName": "E:\\GITPROJLAB\\Rudiakov_Illia_2\\Lab2\\Lab2.csproj",
         "projectName": "Lab2",
-        "projectPath": "E:\\Rudiakov_Illia_2-newBranch\\Lab2\\Lab2.csproj",
+        "projectPath": "E:\\GITPROJLAB\\Rudiakov_Illia_2\\Lab2\\Lab2.csproj",
         "packagesPath": "C:\\Users\\Laige\\.nuget\\packages\\",
-        "outputPath": "E:\\Rudiakov_Illia_2-newBranch\\Lab2\\obj\\",
+        "outputPath": "E:\\GITPROJLAB\\Rudiakov_Illia_2\\Lab2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "E:\\Visual Studio\\SDK\\NuGetPackages",
