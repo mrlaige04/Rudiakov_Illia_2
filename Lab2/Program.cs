@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Text.Json;
+using System.IO;
 namespace Lab2
 {
     class Program
@@ -23,13 +25,32 @@ namespace Lab2
             }
             Locality local = new Locality(list.ToArray());
             local.Dist = dis;
-            Console.WriteLine($"Max Height:{local.MaxHeight()}");
-            Console.WriteLine($"Min Height:{local.MinHeight()}");
+            local.Max = local.MaxHeight();
+            local.Min = local.MinHeight();
+            Console.WriteLine($"Max Height:{local.Max}");
+            Console.WriteLine($"Min Height:{local.Min}");
             Console.WriteLine("________________________________________");
             local.HeightKrutyznaDifference();
             Console.WriteLine("________________________________________");
             local.Compare();
-	        Console.ReadKey();
+            Console.WriteLine("________________________________________");
+
+
+            string json = Program.JsonSer<Locality>(local);
+            string path = string.Format($@"{Directory.GetCurrentDirectory()}\text.json");
+            using (StreamWriter sw = new StreamWriter(path))
+            {
+                sw.WriteLine(json);
+            }
+
+            string dejson = "";
+            using (StreamReader sr = new StreamReader(path))
+            {
+                dejson = sr.ReadToEnd();
+            }
+            Locality local2 = JsonDeser<Locality>(dejson);
+            Console.WriteLine(local2.ToString());
+            Console.ReadKey();
             
         }
         public static int ParseWithoutException(string s)
@@ -53,7 +74,16 @@ namespace Lab2
             return ret;
             
         }
-        
+
+        public static string JsonSer<T>(T obj)
+        {
+            return JsonSerializer.Serialize(obj);
+        }
+        public static T JsonDeser<T>(string json)
+        {
+            return JsonSerializer.Deserialize<T>(json);
+        }
+
     }
 
     

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using System.Text.Json;
 namespace Lab2
 {
     class Locality
@@ -11,13 +11,39 @@ namespace Lab2
         private List<int> Heights = new List<int>();
         private double[,] profiles;
         private int dist;
-
+        private int max;
+        private int min;
+        public int Max {
+            get
+            {
+                return max;
+            }
+            set
+            {
+                max = value;
+            }
+        }
+        public int Min
+        {
+            get
+            {
+                return min;
+            }
+            set
+            {
+                min = value;
+            }
+        }
         public int Dist
         { 
             get { return dist; }
             set { dist = value; }
         }
 
+        public Locality()
+        {
+
+        }
         // Додавання необмеженої кількості висот
         public Locality(params int[] heights)
         {
@@ -90,6 +116,11 @@ namespace Lab2
             }
             return fact;
         }
+        public override string ToString()
+        {
+            return String.Format("Dist:{0}. Max:{1} Min:{2}", Dist, Max.ToString(),Min.ToString());
+        }
+
     }
     
 }
